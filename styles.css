@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#text {
+    width: 100%;
+    height: calc(100vh - 5px);
+    background-color: #3e3e3e;
+    color: #eee;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#text:focus{
+    outline: none;
+}
